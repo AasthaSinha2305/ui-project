@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import FetchApi from './components/FetchApi';
 import Navbar from './components/NavBar';
