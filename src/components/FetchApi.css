@@ -1,0 +1,57 @@
+.outerdiv{
+    width: 40%;
+    height: 100vh;
+    padding: 5%;
+    display: flex;
+    overflow: hidden;
+    /* background-color: aquamarine; */
+}
+.videodiv{
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    /* background-color: rgb(164, 131, 89); */
+    float: right;
+    position: sticky;
+    top: 0px;
+    padding: 10%;
+    
+
+}
+
+.videodiv video{
+    width: 400px;
+}
+
+#myvideo{
+    border-radius: 3rem;
+}
+.apitexts h2{
+    font-weight:600;
+    background: linear-gradient(60deg,#ff3a7c,#741eff);
+    -webkit-background-clip: text;
+    
+    -webkit-text-fill-color: transparent;
+}
+
+.apitexts h1{
+    font-weight: 600;
+}
+
+.apitexts p{
+    color: #4d4d4d;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width: 600px) {
+    .videodiv {
+       display: none;
+    }
+    .outerdiv{
+        width: 100%;
+    }
+    .videodiv1{
+        display:normal;
+    }
+ }
+ 
